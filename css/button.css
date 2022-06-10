@@ -1,0 +1,37 @@
+.button{
+
+    padding:15px;
+    color:#ffffff;
+    background:var(--main-color);
+    border-radius:5px;
+    border:none;
+    outline:none;
+    font-size:1.2rem;
+    cursor:pointer;
+    transition:all ease 0.5s;
+
+}
+
+.outline-button{
+
+     background:none !important;
+     border:1px solid #e0e0e0 !important;
+     color:#000000 !important;
+     transition:all ease 0.5s;
+
+}
+
+.button:hover{
+ 
+    background:none !important;
+    border:1px solid #e0e0e0 !important;
+    color:#000000 !important;
+
+}
+
+.outline-button:hover{
+
+    color:#ffffff !important;
+    background:var(--main-color) !important;
+
+}
